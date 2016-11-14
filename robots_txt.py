@@ -3,6 +3,7 @@ import io
 
 
 def get_robots_txt(url):
+    print('Getting robots.txt file...')
     if url.endswith('/'):
         path = url
     else:
